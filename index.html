@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/home.css">
+    
+  </head>
+  <body>
+    <nav class = "navbar navbar-expand-sm navcol fixed-top justify-content-center ">
+        <div class = "container-fluid ">
+            <img src="pictures/placeholderLogo.JPG" alt="Placeholder logo" class = "rounded" style="width:150px;">
+      
+            <ul class = "navbar-nav me-auto">
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="index.html"> <b>My plan</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="recipes.html" > <b>Recipes</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="order.html" > <b>My Order List</b> </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <style>
+        .meal-table {
+            margin: 20px auto;
+            max-width: 90%;
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+        }
+        .meal-table th, .meal-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .meal-table th {
+            background-color: #3cb371;
+            color: white;
+        }
+        .meal-time {
+            font-weight: bold;
+            background-color: #f0f0f0;
+        }
+        a.add-meal {
+            color: #3cb371;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+
+    <div class="container">
+        <h1 class="text-center mt-4">Weekly Meal Calendar</h1>
+        <table class="meal-table table table-bordered">
+            <thead>
+                <tr>
+                    <th>Meal</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="meal-time">Breakfast</td>
+                    <td><a href="selected_recipe.html" >Oatmeal with Berries</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Greek Yogurt with Granola</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Scrambled Eggs and Toast</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Pancakes with Syrup</a></td>
+                </tr>
+                <tr>
+                    <td class="meal-time">Lunch</td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Turkey Sandwich</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Vegetable Stir-fry</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Caesar Salad</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                </tr>
+                <tr>
+                    <td class="meal-time">Dinner</td>
+                    <td><a href="selected_recipe.html" >Grilled Chicken with Vegetables</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Salmon with Quinoa</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Spaghetti Bolognese</a></td>
+                    <td ><a href="recipes.html" class="add-meal">Add meal</a></td>
+                    <td><a href="selected_recipe.html" >Roast Beef with Mashed Potatoes</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
